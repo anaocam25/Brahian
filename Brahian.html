@@ -1,0 +1,105 @@
+<?php
+// Definir el mensaje especial
+$mensaje = "¡Te amo más de lo que las palabras pueden expresar! 🤍";
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Amor</title>
+    <style>
+        /* Diseño general */
+        body {
+            background-color: #e1f0ff; /* Fondo suave azul */
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 90%;
+            max-width: 700px;
+        }
+
+        /* Estilos para el título */
+        h1 {
+            color: #4682b4; /* Azul suave */
+            font-size: 2.8em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Estilos para el mensaje */
+        p {
+            font-size: 1.3em;
+            color: #5a5a5a;
+            font-weight: 600;
+            margin: 20px 0;
+        }
+
+        /* Imagen de fondo */
+        .image-container {
+            margin: 20px 0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Estilos del botón */
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #0066cc; /* Azul oscuro */
+            color: white;
+            font-size: 1.2em;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #004d99; /* Azul más oscuro al pasar el mouse */
+        }
+
+        /* Estilo para el corazón blanco */
+        .heart {
+            color: #ffffff;
+            font-size: 1.5em;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Para mi niño <span class="heart">🤍</span></h1>
+        <div class="image-container">
+            <img src="b.jpeg" alt="Foto especial">
+        </div>
+        <p><?php echo $mensaje; ?></p>
+        <a href="https://youtu.be/QsRhHEIn0Nw?si=IJhtvOUk1HunWKV9" class="button" target="_blank">¡Haz clic aquí para una sorpresa!</a>
+    </div>
+
+</body>
+</html>
+
